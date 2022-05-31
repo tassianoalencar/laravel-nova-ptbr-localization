@@ -1,18 +1,33 @@
-# Laravel Nova pt-BR Tradução
+<div id="top"></div>
 
-### 1. Instalação
-`composer require tassianoalencar/laravel-nova-ptbr-localization`
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/tassianoalencar/laravel-nova-ptbr-localization">
+    <img src="images/translator.png" alt="Logo" width="80" height="80">
+  </a>
 
-### 2. Publicação dos recursos
-`php artisan vendor:publish --tag=laravel-nova-ptbr-localization`
+  <h3 align="center">Laravel Nova PTBR Localization</h3>
+</div>
 
-### 3. Ajustar configuração
-No arquivo de configurações `config/app.php`.
+<!-- GETTING STARTED -->
+## Instalação
 
-Altere o locate para pt-BR
+Adicione a dependência no projeto
+   ```sh
+   composer require tassianoalencar/laravel-nova-ptbr-localization
+   ```
+Publique os recursos
+   ```sh
+   php artisan vendor:publish --tag=laravel-nova-ptbr-localization
+   ```
+Altere o locate no arquivo de configuração `config/app.php` para:
+   ```php
+   'locale' => 'pt-BR',
+   ```
+Altere o timezone no arquivo de configuração `config/app.php` para:
+   ```php
+   'timezone' => 'America/Sao_Paulo',
+   ```
 
-`'locale' => 'en',`  -> `'locale' => 'pt-BR',`
-
-Altere o timezone para seu timezone
-
-`'timezone' => 'UTC',` -> `'timezone' => 'America/Sao_Paulo',`
+<p align="right">(<a href="#top">back to top</a>)</p>
