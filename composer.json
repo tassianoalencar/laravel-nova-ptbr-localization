@@ -1,0 +1,22 @@
+{
+    "name": "tassianoalencar/laravel-nova-ptbr-localization",
+    "description": "Localization for Laravel Nova in Portuguese (Brazil)",
+    "authors": [
+        {
+            "name": "Tassiano Alencar",
+            "email": "tassiano.alencar@icloud.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "TassianoAlencar\\LaravelNovaPtBRLocalization\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TassianoAlencar\\LaravelNovaPtBRLocalization\\LaravelNovaPtBRLocalizationServiceProvider"
+            ]
+        }
+    }
+}
