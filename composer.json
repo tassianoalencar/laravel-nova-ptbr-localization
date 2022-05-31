@@ -1,6 +1,11 @@
 {
     "name": "tassianoalencar/laravel-nova-ptbr-localization",
     "description": "Localization for Laravel Nova in Portuguese (Brazil)",
+    "license": "GPL-3.0-or-later",
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.0.2"
+    },
     "authors": [
         {
             "name": "Tassiano Alencar",
